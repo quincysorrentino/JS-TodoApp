@@ -1,0 +1,47 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo App</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <div id="headerContainer">
+        <h1 id="headerText">TODO LIST</h1>
+    </div>
+
+    <div id="contentContainer">
+        <div id="dateContainer">
+            <p id="todayLabel">Today</p>
+            <p id="currentDateDisplay">CURRENT DATE</p>
+        </div>
+
+        <div id="taskListContainer">
+            <div id="taskTemplateContainer">
+                <input type="text" name="Title" id="titleInput" placeholder="Title">
+                <input type="text" name="Description" id="descriptionInput" placeholder="Description">
+                <input type="datetime-local" name="Due Date" id="dueDateInput">
+                <button id="addTaskButton">Add Task</button>
+            </div>
+            <ul id="taskList">
+            
+                <!-- <li id="taskItem">
+                    <div id="taskDisplayContainer">
+                        <div id="taskDisplayTextContainer">
+                            <p class="taskDisplayText">Title</p>
+                            <p class="taskDisplayText">Description</p>
+                            <p class="taskDisplayText">Date</p>
+                        </div>
+
+                        <input type="checkbox" id="statusCheckBox">
+                    </div>
+                </li> -->
+
+            </ul>
+        </div>
+    </div>
+
+</body>
+</html>
