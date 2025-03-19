@@ -117,6 +117,7 @@ body {
     background-color: rgb(65, 65, 65);
     border-radius: 10px;
     padding: 10px;
+    align-items: center;
 }
 
 .taskDisplayText{
@@ -129,7 +130,10 @@ body {
 
 }
 
-#statusCheckBox{
-    width: 5%;
-     
+.statusCheckBox{
+    width: 20px;
+    height: 20px;
+    margin-left: 15px;
+    cursor: pointer;
+
 }

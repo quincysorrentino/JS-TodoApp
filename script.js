@@ -54,7 +54,7 @@ function renderTasks() {
                     <p class="taskDisplayText">${task.description}</p>
                     <p class="taskDisplayText">${task.dueDate}</p>
                 </div>
-                <input type="checkbox" id="statusCheckBox-${index}" data-index="${index}">
+                <input type="checkbox" id="statusCheckBox-${index}" class="statusCheckBox" data-index="${index}">
             </div>
         `;
 
