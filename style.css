@@ -54,7 +54,7 @@ body {
 }
 
 #taskListContainer{
-    width: 80%;
+    width: 60%;
     display: flex;
     flex-direction: column;
     gap: 15px;
@@ -98,6 +98,7 @@ body {
     background-color: aliceblue;
     border: none;
     border-radius: 7px;
+    font-size: x-large;
 }
 
 #addTaskButton{
@@ -106,7 +107,7 @@ body {
     border-radius: 7px;
     padding-top: 10px;
     padding-bottom: 10px;
-    font-size:medium;
+    font-size: x-large;
 }
 
 #taskDisplayContainer{
@@ -124,6 +125,7 @@ body {
     border-radius: 7px;
     padding: 8px;
     margin: 0;
+    font-size: x-large;
 
 }
 
